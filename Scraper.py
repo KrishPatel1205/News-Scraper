@@ -12,4 +12,4 @@ with open('news.txt', 'w', encoding='utf-8') as txt_file:
         summary = article.find('div', itemprop='articleBody').text
 
         txt_file.writelines(headline + "\n" + summary + "\n" + "\n")
-        # print("\033[1m" + headline + "\033[0m" + "\n" + summary + "\n" + "\n")
+        print("\033[1m" + headline + "\033[0m" + "\n" + summary + "\n" + "\n")
