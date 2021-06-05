@@ -4,5 +4,6 @@ This is web scrapper which scrapes the news headline and it's short summary from
 ## Requirements:
 This program is written in Python...
 * Requests
-* BeutifulSoup4
+* BeautifulSoup4
 * lxml
+---
